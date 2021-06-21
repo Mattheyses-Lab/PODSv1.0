@@ -1,0 +1,1 @@
+data = PolarizedOrderDetection('nd2',false,'tifs',true,'debug',true)

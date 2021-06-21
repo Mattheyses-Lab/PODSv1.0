@@ -1,0 +1,1 @@
+data = PolarizedOrderDetection('nd2',true,'twocolor',true,'timecourse',true,'debug',true)
