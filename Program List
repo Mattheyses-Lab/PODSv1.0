@@ -1,0 +1,15 @@
+Main programs	
+/PODS_v1/FindPBConstant.m	
+This program takes a stack of images (either .tifs or .nd2 files) and uses the first and last image to calculate a the exponential photobleaching rate constant of the images. If the goal is to determine the photobleaching rate of the constant of interest, it is not necessary to take these images at multiple excitation polarizations. It is assumed in the PODS photobleaching correction program that these images are acquired at the same exposure time as the data.
+/PODS_v1/PolarizedOrderDetection.m	
+This is the main driver program for the order detection analysis. Input and outputs for PolarizedOrderDetection are detailed in the readme. This program can be run directly with user selected inputs, or one of the provided 'Run Files' can be used (details below).
+/PODS_v1/RunPODS_nd2.m	
+Run this program if you wish to analyze one or more images stacks in nd2 format (acquired with the NIS-Elements software)
+/PODS_v1/RunPODS_tifs.m	
+Run this program if you wish to analyze one or more image stacks that are in .tif format
+/PODS_v1/RunPODS_timecourse_nd2.m	
+Run this program if you have images in .nd2 format that were acquired sequentially and you would like them to be processed in order. Files must have 't0,t1,t2...' in the name to be processed correctly.
+/PODS_v1/RunPODS_timecourse_tifs.m	
+Run this program if you have images in .tif format that were acquired sequentially and you would like them to be processed in order. Files must have 't0,t1,t2...' in the name to be processed correctly.
+/PODS_v1/RunPODS_twocolor_nd1.m	
+Run this program if you wish to analyze one or more images stacks in nd2 format (acquired with the NIS-Elements software)
